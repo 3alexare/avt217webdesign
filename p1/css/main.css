@@ -2,7 +2,12 @@ h1{
 font-size: 90px;
 colorblue;
 }
-h2{
 
-  p
+  p{
+    font-size: 40px;
+    font-family: helvetica;
+}
+
+body{
+  background-color:#DDA0DD;
 }

@@ -1,7 +1,9 @@
 h1{
 font-size: 90px;
-colorblue;
 text-align: center;
+}
+h2{
+  text-align: center;
 }
   p{
     font-size: 40px;
@@ -12,7 +14,7 @@ a:link {
   color: purple;
 }
 a:visited{
-  color: gray
+  color: orange
 }
 
 body{

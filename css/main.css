@@ -1,0 +1,16 @@
+p{
+  font-size: 40px;
+  font-family: candara;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+a:link {
+  color: white;
+}
+a:visited{
+  color: #148F77;
+}
+body{
+  background-color: purple
+}

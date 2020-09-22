@@ -1,13 +1,13 @@
 h1{
 font-size: 90px;
 colorblue;
+text-align: center;
 }
-
   p{
     font-size: 40px;
-    font-family: helvetica;
+    font-family: candara;
+    text-align: center;
 }
-
 body{
   background-color:#DDA0DD;
 }

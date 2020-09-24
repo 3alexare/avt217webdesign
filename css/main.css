@@ -12,6 +12,7 @@ ul{
   font-weight: bold;
   text-align: center;
   margin-top: 200px;
+  list-style-type: none;
 }
 a:link {
   color: white;

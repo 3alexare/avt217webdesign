@@ -1,4 +1,8 @@
-h1{
+header{
+width: 75vw;
+margin: 25px auto;
+}
+  h1 {
   font-size: 100px;
   font-family: Helvetica;
   font-weight: bold;
@@ -6,20 +10,55 @@ h1{
   margin-top: 100px;
   color: white;
 }
-ul{
+h2 {
+  font-size: 60px;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+ul {
   font-size: 40px;
   font-family: Helvetica;
   font-weight: bold;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 50px;
   list-style-type: none;
 }
 a:link {
   color: white;
 }
-a:visited{
+a:visited {
   color: #148F77;
 }
-body{
+body {
   background-color: purple;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 900px) {
+  .col {
+    width:100%;
+    margin-bottom: 75px;
+  }
+  header{
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
 }

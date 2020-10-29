@@ -6,19 +6,19 @@ h1 {
 }
 a:link {
   color: black;
-  font-style: helvetica;
+  font-family: helvetica;
   font-size: 16px;
 }
 a:visited {
   color: gray;
-  font-style: helvetica;
+  font-family: helvetica;
   font-size: 16px;
 }
 p {
-  font-style: helvetica;
+  font-family: helvetica;
   font-size: 24px;
 }
 footer {
-  font-style: helvetica;
+  font-family: helvetica;
   font-size: 16px;
 }

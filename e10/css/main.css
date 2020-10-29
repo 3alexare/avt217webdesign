@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.board {
+  width: 800px;
+  margin: 50px auto 0;
+}
+.red, .black {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red {
+  background-color: tomato;
+}
+.black {
+  background-color: #333333;
+}
+/* columns */
+.column {
+  width: 800px;
+  margin: 50px auto 0;
+}
+.header {
+  width: 800px;
+  height: 100px;
+  margin: 0 0 10px 0;
+  background-color: blue;
+  float: left;
+}
+.thin {
+  width: 800px;
+  height: 25px;
+  margin: 0 0 10px 0;
+  background-color: blue;
+  float: left;
+}
+.tall {
+  width: 260px;
+  height: 545px;
+  margin: 0 10px 10px 0;
+  background-color: blue;
+  float: left;
+}
+.tallr {
+  width: 260px;
+  height: 545px;
+  margin: 0 0 10px 0;
+  background-color: blue;
+  float: left;
+}
+.footer {
+  width: 800px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+/* Blog */
+.blog {
+  width: 800px;
+  margin: 50px auto 0;
+}
+.title {
+  width: 800px;
+  height: 175px;
+  background-color: purple;
+  margin: 50px 0 60px 0;
+  float: left;
+}
+.para {
+  width: 630px;
+  height: 450px;
+  background-color: purple;
+  margin: 60px 20px 20px 0;
+  float: left;
+}
+.side {
+  width:150px;
+  height: 225px;
+  background-color: purple;
+  margin: 60px 0 0 0;
+  float: left;
+}
+.bottom {
+  width: 630px;
+  height: 50px;
+  background-color: purple;
+  margin: 0 0 60px 0;
+  float: left;
+}
+/* tennis */
+.tennis {
+  width: 615px;
+  margin: 0px auto 0;
+}
+.top {
+  width: 405px;
+  height: 100px;
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  float: left;
+  background-color: #006666;
+}
+.tside {
+width: 75px;
+height: 305px;
+margin: 2.5px 2.5px 2.5px 0px;
+float: left;
+Background-color: #006666;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  float: left;
+  Background-color: #006666;
+}.square2 {
+  width: 200px;
+  height: 200px;
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  float: left;
+  Background-color: red;
+}
+.tside2 {
+width: 75px;
+height: 305px;
+margin: 2.5px 0px 2.5px 2.5px;
+float: right;
+Background-color: #006666;
+}
+h1{
+  font-size: 80px;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  color: black;
+}
+ul {
+  font-size: 40px;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  list-style-type: none;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: #148F77;
+}

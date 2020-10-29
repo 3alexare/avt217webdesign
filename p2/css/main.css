@@ -1,0 +1,24 @@
+h1 {
+  font-family: helvetica;
+  text-align: center;
+  color: #2E939D;
+  font-size: 60px;
+}
+a:link {
+  color: black;
+  font-style: helvetica;
+  font-size: 16px;
+}
+a:visited {
+  color: gray;
+  font-style: helvetica;
+  font-size: 16px;
+}
+p {
+  font-style: helvetica;
+  font-size: 24px;
+}
+footer {
+  font-style: helvetica;
+  font-size: 16px;
+}

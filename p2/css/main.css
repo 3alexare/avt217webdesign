@@ -1,5 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
 h1 {
-  font-family: helvetica;
+  font-family: gioviale, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   text-align: center;
   color: #2E939D;
   font-size: 60px;
@@ -21,4 +29,11 @@ p {
 footer {
   font-family: helvetica;
   font-size: 16px;
+}
+.logo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.restaurant{
+width: 100%;
 }

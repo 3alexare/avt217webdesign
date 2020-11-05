@@ -49,12 +49,3 @@ ul {
   width: auto;
   height: auto;
 }
-nav ul {
-  font-size: 16px;
-  list-style: none;
-  padding: 0;
-  margin: 40px 0 0;
-}
-nav li {
-  float: right;
-  margin: 0 100

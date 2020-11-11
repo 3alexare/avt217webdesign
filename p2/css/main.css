@@ -66,6 +66,7 @@ ul {
   width: auto;
   height: 150px;
   background-color: #2E939D;
+  float: left;
 }
 footer {
   padding-top: 20px;

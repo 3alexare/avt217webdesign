@@ -5,7 +5,7 @@ body {
   margin: 0 auto;
 }
 .web{
-  width: auto;
+  width: 100%;
 }
 .top{
 width: 100%;
@@ -54,22 +54,21 @@ p {
   text-align: center;
 }
 footer {
+  padding-top: 20px;
   font-family: helvetica;
   font-size: 16px;
 }
-
 ul {
   font-family: helvetica;
   font-size: 16px;
 }
 .homephoto{
   width: 100%;
-  height: auto
+  height: auto;
   margin: 0, auto, 0;
-  float: left;
 }
 .bottom {
   width: auto;
-  height: 100px;
+  height: 150px;
   background-color: #2E939D;
 }

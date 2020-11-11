@@ -58,12 +58,12 @@ ul {
   font-size: 16px;
 }
 .homephoto{
-  width: 100%;
+  width: 100vw;
   height: auto;
   margin: 0, auto, 0;
 }
 .bottom {
-  width: auto;
+  width: 100%;
   height: 150px;
   background-color: #2E939D;
   float: left;

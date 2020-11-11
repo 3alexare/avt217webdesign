@@ -53,11 +53,6 @@ p {
   color: white;
   text-align: center;
 }
-footer {
-  padding-top: 20px;
-  font-family: helvetica;
-  font-size: 16px;
-}
 ul {
   font-family: helvetica;
   font-size: 16px;
@@ -71,4 +66,9 @@ ul {
   width: auto;
   height: 150px;
   background-color: #2E939D;
+}
+footer {
+  padding-top: 20px;
+  font-family: helvetica;
+  font-size: 16px;
 }

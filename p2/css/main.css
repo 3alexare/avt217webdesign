@@ -2,97 +2,91 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0 auto;
-}
-.web{
-  width: 100%;
+  margin: 0;
 }
 main {
   width 100%;
-  height: auto;
+  margin: 0, 0;
+  float: left;
+  }
 }
-.top{
+header {
 width: 100%;
-height: 200px;
-margin: 20px, 50px, 20px;
+display: flow-root;
+margin: 10px, 0;
 }
-h1 {
+.title h1 {
   font-family: gioviale, sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: center;
   color: #2E939D;
-  font-size: 60px;
-}
-.logo {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  margin: 20px, 0, 0 20px;
-}
-.nav {
+  font-size: 100px;
+  display:: flow-root;
+  margin: 0px;
   width: 100%;
-  height: 50px;
+  float: Left;
+}
+.logo img {
+  width:  65px;
+  display:: flow-root;
+  margin: 10px,10px,0, 10px;
+  float: left;
+}
+nav {
+  margin-right: 10px;
+  display:: flow-root;
+  float: right;
 }
 ul {
   font-family: helvetica;
   font-size: 16px;
   text-align: center;
   list-style-type: none;
-}
-h2{
-  font-family: gioviale, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: black;
-  font-size: 32px;
+  text-decoration: none;
 }
 a:link {
   color: black;
   font-family: helvetica;
   font-size: 16px;
+  text-decoration: none;
 }
 a:visited {
   color: gray;
   font-family: helvetica;
   font-size: 16px;
+  text-decoration: none;
 }
-p {
-  font-family: helvetica;
-  font-size: 16px;
-  color: white;
-  text-align: center;
+li {
+  float:left;
+  margin-left: 25px;
 }
-#about {
+.homephoto img {
+  width: 100%;
+  margin: 0;
+}
+.para {
+  width: 100%;
+  display:: flow-root;
+  margin: 30px, 0, 30px;
   font-family: helvetica;
   font-size: 16px;
   color: black;
   text-align: center;
-}
-ul {
-  font-family: helvetica;
-  font-size: 16px;
-}
-.homephoto img {
-  width: 100%;
-  margin: 0, 0, 0;
-}
-.para {
-  width: 100%;
-  height: 200px;
-  margin: 50px;
+  padding-top: 50px;
   padding-left: 20vw;
   padding-right: 20vw;
-  float: left;
-}
-.bottom {
-  width: 100%;
-  height: 150px;
-  background-color: #2E939D;
+  padding-bottom: 50px;
   float: left;
 }
 footer {
+  width: 100%;
+  height: 150px;
+  background-color: #2E939D;
   padding-top: 20px;
+  margin: 0;
   font-family: helvetica;
   font-size: 16px;
+  text-align: center;
+  float: left;
 }

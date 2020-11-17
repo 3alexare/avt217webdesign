@@ -31,6 +31,7 @@ margin: 10px, 0;
   width:  65px;
   display:: flow-root;
   margin: 10px,10px,0, 10px;
+  padding-left: 10px;
   float: left;
 }
 nav {

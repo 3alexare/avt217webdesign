@@ -7,13 +7,14 @@ body {
 main {
   width 100%;
   margin: 0, 0;
+  display:: flow-root;
   float: left;
   }
 }
 header {
 width: 100%;
 display: flow-root;
-margin: 10px, 0;
+margin: 10px, 0, 0, 0;
 }
 .title h1 {
   font-family: gioviale, sans-serif;
@@ -26,11 +27,12 @@ margin: 10px, 0;
   margin: 0px;
   width: 100%;
   float: Left;
+  padding-top: -25vw;
 }
 .logo img {
   width:  65px;
   display:: flow-root;
-  margin: 10px,10px,0, 10px;
+  margin: 10px,10px,0, 0px;
   padding-left: 10px;
   float: left;
 }
@@ -65,6 +67,7 @@ li {
 .homephoto img {
   width: 100%;
   margin: 0;
+  display: flowroot;
 }
 .para {
   width: 100%;
@@ -89,5 +92,6 @@ footer {
   font-family: helvetica;
   font-size: 16px;
   text-align: center;
+  display:: flow-root;
   float: left;
 }

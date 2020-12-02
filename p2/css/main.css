@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 body {
+  width: 100%;
   margin: 0;
 }
 main {
   width 100%;
-  margin: 0, 0;
+  margin: 0;
   display:: flow-root;
   float: left;
   }
@@ -24,16 +25,20 @@ margin: 10px, 0, 0, 0;
   color: #2E939D;
   font-size: 100px;
   display:: flow-root;
-  margin: 0px;
+  margin: -50px;
   width: 100%;
   float: Left;
-  padding-top: -25vw;
+  padding-top: -50vw;
+}
+@media screen and (max-width: 600px){
+.title h1 { font-size: 60px;
+}
 }
 .logo img {
   width:  65px;
   display:: flow-root;
-  margin: 10px,10px,0, 0px;
-  padding-left: 10px;
+  margin: 10px,10px,0,0px;
+  padding-left: 20px;
   float: left;
 }
 nav {
@@ -43,7 +48,7 @@ nav {
 }
 ul {
   font-family: helvetica;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   list-style-type: none;
   text-decoration: none;
@@ -51,13 +56,13 @@ ul {
 a:link {
   color: black;
   font-family: helvetica;
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
 }
 a:visited {
   color: gray;
   font-family: helvetica;
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
 }
 li {
@@ -68,6 +73,7 @@ li {
   width: 100%;
   margin: 0;
   display: flowroot;
+  overflow-x: hidden;
 }
 .para {
   width: 100%;
@@ -94,4 +100,5 @@ footer {
   text-align: center;
   display:: flow-root;
   float: left;
+  overflow-x: hidden;
 }

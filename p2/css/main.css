@@ -16,6 +16,7 @@ header {
 width: 100%;
 display: flow-root;
 margin: 10px 0 0 0;
+/* background-color: red; */
 }
 .title h1 {
   font-family: gioviale, sans-serif;
@@ -29,7 +30,7 @@ margin: 10px 0 0 0;
   width: 100%;
   margin: 0;
   float: Left;
-  /* background-color: red; */
+  /* background-color: blue; */
 }
 @media screen and (max-width: 600px){
 .title h1 { font-size: 60px;
@@ -73,7 +74,7 @@ li {
 .homephoto img {
   width: 100%;
   margin: 0;
-  display: flowroot;
+  display: block;
   overflow-x: hidden;
 }
 .para {
